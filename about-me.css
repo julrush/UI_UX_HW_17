@@ -1,0 +1,12 @@
+/*about-me*/
+
+
+/*Box model example*/
+section {
+  height: 300px;
+  width: 300px;
+  border: 50px;
+  padding: 25px;
+  margin: 50px;
+}
+.download {color: indigo}
