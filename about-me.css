@@ -1,0 +1,40 @@
+/*about-me*/
+
+
+/*Box model example*/
+section {
+  height: 300px;
+  width: 300px;
+  border: 50px;
+  padding: 25px;
+  margin: 50px;
+}
+.download {color: indigo}
+
+ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 25;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+li a {
+  display: block;
+  color: white; 
+  text-align: center;
+  padding: 20px 25 px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
